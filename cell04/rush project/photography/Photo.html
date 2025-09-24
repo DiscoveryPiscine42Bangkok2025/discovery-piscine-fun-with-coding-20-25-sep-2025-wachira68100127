@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume-and-portfolio</title>
+    <style>
+        /* CSS พื้นฐาน */
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: Trebuchet MS, serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* ส่วนหัว (Header) */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 60px;
+            background: linear-gradient(to top, #000000, #D20103);;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 3%;
+            box-sizing: border-box;
+            z-index: 1000;
+        }
+        .header-logo {
+            height: 50px;
+        }
+        .header-nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .header-nav li {
+            margin-right: 15px;
+        }
+        .header-nav a {
+            color: #e5e5e5;
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.3s ease;
+        }
+        .header-nav a:hover {
+            color: #b3b3b3;
+        }
+                /* ส่วนแถวของภาพยนตร์ (Movie Rows) */
+        .movie-row {
+            padding: 20px 0;
+            padding-left: 4%;
+        }
+        .movie-row h2 {
+            font-size: 2vw;
+            margin-bottom: 10px;
+        }
+        .row-posters {
+            display: flex;
+            overflow-x: scroll;
+            padding-bottom: 5px;
+        }
+        /* ซ่อน scrollbar */
+        .row-posters::-webkit-scrollbar {
+            display: none;
+        }
+        .row-poster {
+            width: 250px;
+            object-fit: contain;
+            margin-right: 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+        .row-poster:hover {
+            transform: scale(1.08);
+        }
+
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <img src="https://cdn.discordapp.com/attachments/1111274944953843803/1420090206568190074/download.png?ex=68d42191&is=68d2d011&hm=f1b754e6ef8e04c2649d35b3f0f7c7d70c5f23db05ac3ebd181dcaa3a7d3185f&" alt="Logo" class="header-logo">
+        <nav class="header-nav">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Profile.html">Profile</a></li>
+                <li><a href="Photo.html">Photography</a></li>
+                <li><a href="Contact.html">Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <div class="movie-row" style="background-image: url('https://cdn.discordapp.com/attachments/1111274944953843803/1420104755853791402/Untitled_design_-_1.png?ex=68d42f1e&is=68d2dd9e&hm=62e6e428c331842a4caad43d8c3e0c9b87e91160591dc9f80d0e4793ed3356bb&');">
+        
+            </div>
+        </div>
+        <div class="movie-row">
+            <h2>KMITL Rugby Clubs VS Naval Rugby Academy </h2>
+            <div class="row-posters">
+                <img src="https://media.discordapp.net/attachments/1111274944953843803/1420121068898619412/IMG_2395.jpg?ex=68d43e4f&is=68d2eccf&hm=ac4fc597fa18d56a09edb809928e205ed39e084825a86933b2b318173385e12e&=&format=webp&width=800&height=800" alt="Poster 1" class="row-poster">
+                <img src="https://media.discordapp.net/attachments/1111274944953843803/1420121069611909290/IMG_2394.jpg?ex=68d43e4f&is=68d2eccf&hm=a319f9bccb955e01b7d6c306eac8ce4dfe6bb13c1de747dcf99076f0611172a3&=&format=webp&width=800&height=800" alt="Poster 2" class="row-poster">
+                <img src="https://media.discordapp.net/attachments/1111274944953843803/1420121070207242290/IMG_2392.jpg?ex=68d43e4f&is=68d2eccf&hm=3b7a9678e1322843086ee4aef74681e6a3a6bd1675ba202ad2112d710711fae0&=&format=webp&width=800&height=800" alt="Poster 3" class="row-poster">
+                <img src="https://media.discordapp.net/attachments/1111274944953843803/1420121070836645929/IMG_2393.jpg?ex=68d43e4f&is=68d2eccf&hm=338a0cc088bc47062cfe019a64dbb1c9e0b25730914e076a1424fca4e485d320&=&format=webp&width=800&height=800" alt="Poster 2" class="row-poster">
+                <img src="https://media.discordapp.net/attachments/1111274944953843803/1420121071687827587/IMG_2388.jpg?ex=68d43e50&is=68d2ecd0&hm=7d2b31a72f455937278f8f615290e620474c02dcaf16156af8c1fc80d79ab772&=&format=webp&width=800&height=800" alt="Poster 3" class="row-poster">
+                <img src="https://media.discordapp.net/attachments/1419622305935392839/1420308147918082141/IMG_2391.jpg?ex=68d4ec8a&is=68d39b0a&hm=31081af1e552a8f922c8bc6c527c0a3ec510f181047f41efc065255b43cb01e3&=&format=webp&width=930&height=930" alt="Poster 3" class="row-poster">	
+                <img src="https://media.discordapp.net/attachments/1419622305935392839/1420306824539803761/KMITL_Rugby_Set_1-96.jpg?ex=68d4eb4e&is=68d399ce&hm=ca446ff67eba6b10264d0b5da63f0e4548bb773f740c99cc70358e16cedea445&=&format=webp&width=800&height=800" alt="Poster 3" class="row-poster">
+                <img src="https://media.discordapp.net/attachments/1419622305935392839/1420306825030664202/KMITL_Rugby_Set_1-83.jpg?ex=68d4eb4f&is=68d399cf&hm=929532863781a09d4c8c59ed4babcb4ba697a63110c68fcd79766141b2caa8aa&=&format=webp&width=800&height=800" alt="Poster 3" class="row-poster">	
+   
+            </div>
+        </div>
+
+        <div class="movie-row">
+            <h2>Chongqing</h2>
+            <div class="row-posters">
+                <img src="https://media.discordapp.net/attachments/1111274944953843803/1420122775477026957/FullSizeRender.jpg?ex=68d43fe6&is=68d2ee66&hm=434324d8fa23ba67a0a5c2df907f1581c25b25fe356e7c0892a7da90d489d93d&=&format=webp&width=800&height=800" alt="Poster 6" class="row-poster">
+                <img src="https://media.discordapp.net/attachments/1111274944953843803/1420122775871426660/IMG_2396.png?ex=68d43fe6&is=68d2ee66&hm=093f0edf795a122e01c28a873343263cec131f3a281b76bb0aa721c25082f23c&=&format=webp&quality=lossless&width=800&height=800" alt="Poster 7" class="row-poster">
+                <img src="https://media.discordapp.net/attachments/1111274944953843803/1420122776378806403/FullSizeRender.jpg?ex=68d43fe6&is=68d2ee66&hm=9298e04d21c74b2609c7e751e27e3054efecdc781e6345ef020fe693e20c9ee3&=&format=webp&width=800&height=800" alt="Poster 8" class="row-poster">
+                <img src="https://media.discordapp.net/attachments/1111274944953843803/1420122776777261166/FullSizeRender.jpg?ex=68d43fe6&is=68d2ee66&hm=861c7203851bfd10f8de5b875a2ce8e39754fde8b367c2c3f565a8cb1a2168fa&=&format=webp&width=800&height=800" alt="Poster 9" class="row-poster">
+            </div>
+        </div>
+                <div class="movie-row">
+            <h2>Temples</h2>
+            <div class="row-posters">
+                <img src="https://media.discordapp.net/attachments/1111274944953843803/1420123586630385695/IMG_3289.jpg?ex=68d440a7&is=68d2ef27&hm=31411c43560e5112a7d2e0a51124e3e0a366821c45dba23a7c1ca2839aeab0f9&=&format=webp&width=800&height=800" alt="Poster 6" class="row-poster">
+                <img src="https://media.discordapp.net/attachments/1111274944953843803/1420123587011940545/94F54765-1B0B-4C44-A994-E4E70719D8E0.jpg?ex=68d440a7&is=68d2ef27&hm=6e6ea6bdb53f2d4e20623abb326a9f5bd9e2fa4cda831a01b4ce634f27cd978e&=&format=webp&width=800&height=800" alt="Poster 7" class="row-poster">
+                <img src="https://media.discordapp.net/attachments/1111274944953843803/1420123587301605426/E47E2608-7C51-49D4-81E5-743159EAAEAB.jpg?ex=68d440a7&is=68d2ef27&hm=fd137031ae8ececb82492182443255014c08491c3d6fb32f092ba8b84223492f&=&format=webp&width=800&height=800" alt="Poster 8" class="row-poster">
+            </div>
+        </div>
+                <div class="movie-row">
+            <h2>KBS ambassadors</h2>
+            <div class="row-posters">
+                <img src="https://media.discordapp.net/attachments/1419622305935392839/1420125318362038422/IMG_2399.jpg?ex=68d44244&is=68d2f0c4&hm=7bb147608d548005b3fe0c25d1580f218954853d909ef0eed56e5c6c0da9f7f2&=&format=webp&width=533&height=800" alt="Poster 6" class="row-poster">
+                <img src="https://media.discordapp.net/attachments/1419622305935392839/1420125319217680450/IMG_2398.jpg?ex=68d44244&is=68d2f0c4&hm=44b1d61208ad69755d21cdbd5ba92537b332550923f9a6305078a814de58e837&=&format=webp&width=533&height=800" alt="Poster 7" class="row-poster">
+                <img src="https://media.discordapp.net/attachments/1419622305935392839/1420125322069676103/IMG_2401.jpg?ex=68d44245&is=68d2f0c5&hm=6e3409832dc1e450e5711361101dd9f8342d1eea266a8cd395496b9344628e08&=&format=webp&width=533&height=800" alt="Poster 8" class="row-poster">
+                <img src="https://cdn.discordapp.com/attachments/1419622305935392839/1420125320299679885/IMG_2397.jpg?ex=68d44245&is=68d2f0c5&hm=dcd0f97a521bc8311c4c5f6f68979f97cca07b653b360a9518e8019d0aab68d4&" alt="Poster 9" class="row-poster">
+                <img src="https://media.discordapp.net/attachments/1419622305935392839/1420125321298051164/IMG_2400.jpg?ex=68d44245&is=68d2f0c5&hm=cca29b3ad5de09b48036e8eb3c15d9434dd410f4b0b4f53bbca35bd5a0e754df&=&format=webp&width=533&height=800" alt="Poster 8" class="row-poster">
+                <img src="https://media.discordapp.net/attachments/1419622305935392839/1420310748378169406/IMG_1556.jpg?ex=68d4eef6&is=68d39d76&hm=db96eb72ca07c0dd3fb085db38ec8aab101db50ef8df4207826014652c62e942&=&format=webp&width=533&height=800" alt="Poster 8" class="row-poster">
+                <img src="https://cdn.discordapp.com/attachments/1419622305935392839/1420310747522666557/IMG_1542.jpg?ex=68d4eef6&is=68d39d76&hm=565ecff69041498cc151940a73d87d5d9dd3429737e5c79e436c773270d776f2&" alt="Poster 8" class="row-poster">  
+
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
